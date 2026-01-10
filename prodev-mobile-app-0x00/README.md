@@ -8,3 +8,8 @@
 ## Reset Project Observations
 
 Running `npm run reset-project` removed generated files, reset configurations, and restored the project to its initial scaffolded state.
+
+## Reset Project Observations
+
+Running `npm run reset-project` prompted whether to move existing files instead of deleting them.
+Choosing yes moved the current files into a backup directory and regenerated a fresh Expo Router project structure.
