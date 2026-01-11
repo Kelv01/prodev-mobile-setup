@@ -14,9 +14,7 @@ export default function Index() {
 
         <Text style={styles.largeText}>Sign in to your</Text>
         <Text style={styles.largeText}>Account</Text>
-        <Text style={styles.smallText}>
-          Enter your email and password to sign in.
-        </Text>
+        <Text style={styles.smallText}>Enter your email and password to sign in.</Text>
 
         <View style={styles.formGroup}>
           <View>
