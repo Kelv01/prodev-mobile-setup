@@ -3,14 +3,11 @@ import {
   View,
   StyleSheet,
   Image,
-  ImageBackground as RNImageBackground,
+  ImageBackground,
   Dimensions,
   TouchableOpacity,
 } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
-import React from "react";
-
-const ImageBackground = RNImageBackground as any;
 
 const styles = StyleSheet.create({
   container: {
@@ -72,7 +69,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default function Index(): React.ReactElement {
+export default function Index() {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={{ flex: 1 }}>
